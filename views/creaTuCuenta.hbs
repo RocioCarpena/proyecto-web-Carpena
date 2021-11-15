@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Header -->
+   {{> header}}
+   
+<body>
+
+
+<!-- -------NAVBAR-------------- -->
+   {{> navbar}}
+
+    <!-- ------FORMULARIO CREA TU CUENTA----- -->
+    <div id="texto">
+
+        <form action="" onsubmit="formularioCompleto()" class="formulario" class="col-4  offset-1" >
+          <h4>Crea tu cuenta</h4>
+          <label for="nombre">
+              <span>Nombre y Apellido:</span>
+          </label>
+          <input id="nombre" name="nombre" type="text">
+          <br><br>
+          <label for="dni">
+            <span>DNI:</span>
+          </label>
+          <input id="dni" name="dni" type="text">
+          <br><br>
+          <label for="correo">
+              <span>Correo electrónico:</span>
+          </label>
+          <input id="correo" name="correo" type="text">
+          <br><br>
+          <label for="fecha">
+              <span>Fecha de nacimiento:</span>
+          </label>
+          <input id="fecha" name="fecha" type="date">
+          <br><br>
+          <label for="radioButton">
+              <span>Tu tarjeta es:</span>
+          </label><br>
+          <input type="radio" id="radioButton" name="radioButton"> VISA<br>
+          <input type="radio" id="radioButton" name="radioButton"> MASTECARD<br>
+          <br><br>
+      
+          <label for="nroTarjeta">
+            <span>Número de Tarjeta de crédito:</span>
+          </label>
+          <input id="nroTarjeta" name="nroTarjeta" type="text">
+          <br><br>
+      
+          <input  class="btn btn-primary" type="submit" value="Crear cuenta">
+      
+      </form>
+
+<!-- -------FOOTER-------------- -->
+{{> footer}}
+
+</body>
+</html>

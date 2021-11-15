@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+.col-2{
+    width: auto;
+    padding-left: 5rem;
+}
+.row>{
+    padding-right: 8rem;
+}
+.navbar{
+    padding-top: 3rem
+}
+.titulos{
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family:fantasy;
+    color: rgb(255, 0, 85);
+    font-size: 3rem;
+}
+.card-text{
+    color: rgb(255, 0, 85);
+}
+
+.formulario{
+    padding: 5rem;
+}
+
+img.redimension {
+    width:40px;
+    height:40px;
+}
+.nav-item a:hover {
+    color: rgb(255, 0, 85);
+}
+.p-2fs-3{
+    width: 38rem;
+    font-size: 1.3rem;
+    text-align: center;
+    display: block;
+}
+/*----Responsive----*/
+/*@media (max-width: 576px) {
+    .container div .card {
+        width: 50%;
+     
+    }
+    .p-2fs-3 {
+        font-size: 1rem;
+        text-align: center;
+
+    }
+    .container div .card-body {
+        font-size: 1rem;
+
+    }
+    .titulos {
+        font-size: 2rem;
+    }
+} */
+/*@media (max-width: 576px) {
+    .container div .recuadros{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+    }
+    .titulos {
+        font-size: 2rem;
+    }
+}*/
+
+
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Header -->
+   {{> header}}
+
+<body>
+
+
+<!-- -------NAVBAR-------------- -->
+  {{> navbar}}
+
+<!-- -------FORMULARIO PARA DEJAR UNA CONSULTA-------------- -->
+<section class="container">
+    <h1> Dejanos tu consulta </h1>
+        <form action="/send-email" method="post">
+        <div class="mb-3">
+          <input type="text" class="form-control" name="nombre" placeholder="Ingresá tu nombre">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" name="apellido" placeholder="Ingresá tu apellido">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" name="mail" placeholder="Ingresá tu mail">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" name="asunto" placeholder="Ingresá asunto">
+        </div>
+        <div class="mb-3">
+          <textarea name="mensaje" id="" class="form-control" cols="30" rows="10"></textarea>  
+        </div>
+        <button class="btn btn-primary">Enviar </button>
+        </form>
+  </section> 
+
+<!-- -------FOOTER-------------- -->
+{{> footer}}    
+    
+</body>
+
+
+</html>
