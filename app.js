@@ -24,8 +24,8 @@ app.get('/', (req, res) => {
   })
 })
 
-app.get('/sobreNosotros',   (req, res) => {
-  res.render('sobreNosotros', {
+app.get('/sobreNosotras',   (req, res) => {
+  res.render('sobreNosotras', {
     nombre: 'Power Rochi',
     titulo: 'POWER ROCHI'
   })
